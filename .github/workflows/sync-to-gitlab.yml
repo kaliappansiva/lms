@@ -17,5 +17,5 @@ jobs:
 
       - name: Push to GitLab
         run: |
-          git remote add gitlab https://oauth2:${{ secrets.GITLAB_TOKEN }}@gitlab.com/Jobprep/jobprep-lms-web.git
+          git remote add gitlab https://oauth2:${{ secrets.GITLAB_TOKEN }}@gitlab.com/siva/jobprep-lms-web.git
           git push gitlab develop --force
